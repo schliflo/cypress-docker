@@ -1,4 +1,4 @@
-FROM cypress/browsers:chrome69
+FROM cypress/browsers:node11.13.0-chrome73
 
 RUN yarn global add \
     cypress@3 \
