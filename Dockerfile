@@ -1,4 +1,4 @@
-FROM cypress/browsers:node12.6.0-chrome75
+FROM zenika/alpine-chrome:with-node
 
 RUN yarn global add \
     cypress@3 \
